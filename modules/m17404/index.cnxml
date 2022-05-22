@@ -1,0 +1,26 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Definiciones de Mantenimiento del Software</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>5cb618a4-f762-4ccc-929f-653792649933</md:uuid>
+</metadata>
+  <content>
+    <section id="id38045873">
+      <title>El mantenimiento como actividad post-entrega</title>
+      <para id="id38371999">Cualquier esfuerzo de Ingeniería del Software – si termina con éxito – acaba por producir un determinado producto software, orientado a satisfacer ciertos requisitos previamente establecidos. El mantenimiento en este contexto se entiende de manera general como las actividades de cambio de ese producto. Ahora bien, el cambio se puede entender de diferentes maneras. Comenzando por lo básico, la definición de “Mantenimiento del Software” del estándar IEEE 1219 es: “El mantenimiento del software es la modificación de un producto software después de la entrega para corregir fallos, para mejorar el rendimiento u otros atributos, o para adaptar el producto a un entorno modificado”.</para>
+      <para id="id38237786">Esta definición implica que las actividades de mantenimiento de un producto comienzan en el tiempo sólo después de que el producto se ha entregado, es decir, después de que el producto está en operación. No obstante, en ocasiones se considera que algunas actividades de mantenimiento puede comenzar antes de la entrega del producto.</para>
+      <para id="id38243363">Se puede considerar que ciertas actividades de mantenimiento comienzan antes de la entrega. Algunas de estas actividades son la planificación de las actividades posteriores a la entrega, así como toda actividad orientada a facilitar el mantenimiento, como la revisión de la documentación. No obstante, estas pueden considerarse actividades de preparación para el mantenimiento, más que de mantenimiento en sí. </para>
+    </section>
+    <section id="id38243698">
+      <title>Una visión más amplia del mantenimiento del software</title>
+      <para id="id38253992">Por ejemplo, Pigoski<footnote id="idm19409776">Pigoski, T. M. (1997) Practical Software Maintenance – Best Practices for Managing Your Software Investment. John Wiley &amp; Sons, New York, NY.</footnote> (1997) resalta que hay una necesidad de comenzar a considerar el mantenimiento desde el mismo momento en que comienza el desarrollo:</para>
+      <para id="id38236326">El mantenimiento del software es la totalidad de las actividades necesarias para proporcionar soporte económico (cost-effective) al sistema software. Estas actividades se desarrollan tanto antes como después de la entrega. Las actividades previas a la entrega incluyen la planificación de las operaciones posteriores a la entrega, planificación del soporte y determinación de la logística. Las actividades posteriores a la entrega incluyen la modificación del software, la formación de usuarios, y la operación de un help desk.</para>
+      <para id="id39349726">Como se ve, hay una diferenciación en las diferentes definiciones entre actividades pre- y post- entrega del software. Para clarificar los conceptos, en esta obra diferenciaremos entre:</para>
+      <list list-type="enumerated" id="id38199660">
+        <item>actividades de mantenimiento propiamente dichas (posteriores a la entrega) y </item>
+        <item>actividades de preparación para el mantenimiento. </item>
+      </list>
+      <para id="id38505850">El criterio para diferenciarlo de otras actividades es el hecho de la entrega del producto software. Se debe tener en cuenta que en ocasiones esa entrega es un acto formal dentro de un contrato, pero en muchas otras es una simple decisión de disponibilidad pública de un grupo de desarrollo. Por ejemplo, en los proyectos de fuente abierto, desarrollados de manera voluntaria, el qué es una entrega lo determinan los propios desarrolladores cuando piensan que la funcionalidad implementada ha llegado a un determinado nivel.</para>
+      <para id="id38198066">La guía SWEBOK<footnote id="idm1722384">www.swebok.org</footnote> considera que el mantenimiento ocurre durante todo el ciclo de vida, y coincide en su definición con la de Pigoski antes mencionada.</para>
+      <para id="id38237990">Es importante resaltar que el concepto de mantenimiento del software difiere de la concepción de mantenimiento en otras disciplinas de ingeniería. Esto es debido a que el software no se “deteriora” con el uso. En la ingeniería mecánica, el mantenimiento consiste en las acciones de reparación necesarias para que la máquina o sistema mecánico siga funcionando. En la Ingeniería del Software, el mantenimiento tiene un significado más amplio, cubriendo su adaptación a necesidades</para>
+    </section>
+  </content>
+</document>

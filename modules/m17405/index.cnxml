@@ -1,0 +1,32 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Evolución del Software</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>77a12d95-3a5e-4a64-a4c7-cc0805d38f24</md:uuid>
+</metadata>
+  <content>
+    <section id="id15177289">
+      <title>La evolución del software</title>
+      <para id="id16120703">El término “evolución” del software se utiliza desde los sesenta para denominar la dinámica de crecimiento del software. </para>
+      <para id="id14451452">Una definición atribuida a Lehman y Ramil dice que la evolución del software es “todas las actividades de programación que se orientan a generar una nueva versión de un software a partir de una versión anterior operativa. </para>
+      <para id="id12269264">Ned Chapin <footnote id="idm12381552">Chapin, N., Hale, J.E., Khan, K.M., Ramil, J. and Tan, W. (2001) Types of software evolution and software maintenance. Journal of Software Maintenance and Evolution: research and practice, 13, pp. 3-30.</footnote>(1999) lo definió como “la aplicación de las actividades y procesos de mantenimiento del software que generan una nueva versión operative de un software con una funcionalidad de usuario o propiedades cambiadas a partir de una versión anterior […] junto con los procesos y actividades de garantía de calidad y con la gestión de esos procesos”. De estas definiciones se desprende que la evolución cubre el ajuste a funcionalidades adicionales. </para>
+      <para id="id16146770">La guía SWEBOK<footnote id="idm12492560">www.swebok.org</footnote> considera que la causa del mantenimiento está tanto en la necesidad de “cambios” como de “evolución” en el software.</para>
+    </section>
+    <section id="id18143069">
+      <title>Historia de la evolución del software</title>
+      <para id="id3468817">Durante los primeros años de la era de la computadora, el software se  contemplaba como un añadido. La programación de computadoras era un "arte de andar por casa" para el que existían pocos métodos sistemáticos. El desarrollo del software se realizaba virtualmente sin ninguna planificación, hasta que los planes comenzaron a descalabrarse y los costes a correr. Los programadores trataban de hacer las cosas bien, y con un esfuerzo heroico, a menudo salían con éxito. El software se diseñaba a  medida para cada aplicación y tenia una distribución relativamente pequeña. </para>
+      <para id="id14745474">La mayoría del software se desarrollaba y era utilizado por la misma persona u organización. La misma persona lo escribía, lo ejecutaba y, si fallaba, lo depuraba. El diseño era un proceso implícito, realizado en la mente de alguien y, la documentación normalmente no existía. </para>
+      <para id="id16902774">La segunda era en la evolución de los sistemas de computadora se extienden desde la mitad de la década de los sesenta hasta finales de los setenta. La multiprogramación y los sistemas multiusuario introdujeron nuevos conceptos de interacción hombre - maquina. También se caracterizo por el establecimiento del software como producto y la llegada de las "casas del software". Los patronos de la industria, del gobierno y de la universidad se aprestaban a "desarrollar el mejor paquete de software" y ganar así mucho dinero. </para>
+      <para id="id13307202">La tercera era en la evolución de los sistemas de computadora comenzó a mediados de los años setenta y continúo más allá de una década. El sistema distribuido, múltiples computadoras, cada una ejecutando funciones concurrentes y comunicándose con alguna otra, incrementó notablemente la complejidad de los sistemas  informáticos. Las redes de área local y de área global, las comunicaciones digitales de alto ancho de banda y la creciente demanda de acceso "instantáneo" a los datos, supusieron una fuerte presión sobre los desarrolladores del software. La conclusión de la tercera era se caracterizo por la llegada y amplio uso de los microprocesadores. El microprocesador ha producido un extenso grupo de productos inteligentes, desde automóviles hasta  hornos microondas, desde robots industriales a equipos de diagnósticos de suero sanguíneo. </para>
+      <para id="id8890172">La cuarta era de la evolución de los sistemas informáticos se aleja de las computadoras individuales y de los programas de computadoras, dirigiéndose al impacto colectivo de las computadoras y del software. Potentes máquinas personales  controladas por sistemas operativos sofisticados, en redes globales y locales, acompañadas por aplicaciones de software avanzadas se han convertido en la norma. </para>
+      <para id="id10809504">La industria del software ya es la cuna de la economía del mundo. Las técnicas de la cuarta generación para el desarrollo del software están cambiando en la forma en que la comunidad del software construye programas informáticos. Las tecnologías orientadas a objetos están desplazando rápidamente los enfoques de desarrollo de software más convencionales en muchas áreas de aplicaciones. </para>
+      <para id="id21686679">Sin embargo, un conjunto de problemas relacionados con el software ha persistido a través de la evolución de los sistemas basados en computadora, y estos problemas continúan aumentando:</para>
+      <list list-type="enumerated" id="id15070979">
+        <item>Los avances del software continúan dejando atrás nuestra habilidad de construir software para alcanzar el potencial del hardware. </item>
+        <item>Nuestra habilidad de construir  nuevos programas no pueden ir al mismo ritmo de la demanda de nuevos programas, ni podemos construir programas lo suficientemente rápido como para cumplir las necesidades del mercado y de los negocios.</item>
+        <item>El uso extenso de computadoras ha hecho de la sociedad cada vez más dependiente de la operación fiable del software. Cuando el software falla, pueden ocurrir daños económicos enormes y ocasionar sufrimiento humano. </item>
+        <item>Luchamos por construir  software informático que tengan fiabilidad y alta calidad.</item>
+        <item>Nuestra habilidad de soportar y mejorar los programas existentes se ve amenazada por diseños pobres y recursos inadecuados. </item>
+      </list>
+      <para id="id17506351">En respuesta a estos problemas, las prácticas de la Ingeniería del Software se están adoptando en toda la industria. </para>
+    </section>
+  </content>
+</document>

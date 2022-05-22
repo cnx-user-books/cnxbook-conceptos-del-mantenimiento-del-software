@@ -1,0 +1,38 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Mantenimiento del Software como Actividad de Ingeniería</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>6ba91ce9-0221-4ec2-9127-3bde7b9bee05</md:uuid>
+</metadata>
+  <content>
+    <para id="id6867400">La definición posiblemente más utilizada de la Ingeniería del Software es la siguiente (IEEE, 1990)<footnote id="idm4458512">IEEE (1998) IEEE Std. 1219-1998, Standard for Software Maintenance, IEEE Computer Society Press, Los Alamitos, CA, 1998.</footnote>: “La aplicación de un enfoque sistemático, disciplinado y cuantificable al desarrollo, la operación y el mantenimiento del software; esto es, la aplicación de la ingeniería al software.”</para>
+    <para id="id6770431">En la propia definición aparece el mantenimiento como una de las actividades de la Ingeniería del Software. Ahora bien ¿en qué se diferencia el mantenimiento de otras actividades de la Ingeniería del Software? – concretamente, ¿en qué se diferencia de lo que se suele denominar “desarrollo”?. Para clarificar esta delimitación, hay que buscar un criterio que separe unas actividades de las otras. </para>
+    <para id="id7030231">Como primera aproximación, podemos decir que las actividades de mantenimiento del software son actividades de Ingeniería del Software orientadas a la modificación o cambio del mismo (por diferentes motivos, que se verán más adelante). El cambio tiene como característica fundamental el hecho de que primero se necesita una comprensión del objeto que se ha de cambiar, para poder hacer efectiva la modificación. Esto hace que la comprensión del software como actividad humana, sea un elemento esencial en la Ingeniería del Software. Es decir, es conveniente que el software tenga una estructura y una documentación asociada que facilite su comprensión. </para>
+    <para id="id5734604">La importancia del mantenimiento es de carácter económico – como toda actividad de Ingeniería. </para>
+    <para id="id6970147">En un sistema que es fácilmente mantenible, se puede implementar un cambio con un menor esfuerzo que en un sistema que es menos mantenible.</para>
+    <para id="id6856563">Esto nos lleva a pensar que puede resultar rentable el hacer el software más mantenible. Claro está, esto solo será así si los cambios son frecuentes en el software. </para>
+    <para id="id5421286">Todo software evoluciona para adaptarse a las necesidades de sus usuarios.</para>
+    <para id="id5640357">La combinación de los dos enunciados nos indica que es importante prever la mantenibilidad (es decir, la “facilidad de mantenimiento”), aún antes de la entrega del producto.</para>
+    <section id="id5714550">
+      <title>El estado de la práctica del mantenimiento del software</title>
+      <para id="id7013261">Diferentes estudios han resaltado que el esfuerzo consumido en mantenimiento del software es en proporción al tiempo de desarrollo, muy elevado, con cifras entre el 50% y el 80% dependiendo de los estudios. En cualquier caso, es claro que el mantenimiento es una actividad que consume muchos recursos. Las actividades de mantenimiento incluyen entre otros, los siguientes elementos:</para>
+      <list list-type="bulleted" id="id5734602">
+        <item>Es necesario comprender el software y comprender los cambios que se deben realizar.</item>
+        <item>Es necesario modificar el software y actualizar la documentación.</item>
+        <item>Es necesario volver a realizar las pruebas del software (prueba de regresión), además de probar específicamente las partes añadidas.</item>
+      </list>
+      <para id="id5422193">Además de esos costes directos, hay costes ocultos que son de gran importancia, como:</para>
+      <list list-type="bulleted" id="id7405320">
+        <item>oportunidades de desarrollo que se han de posponer o que se pierden, debido a que los recursos disponibles están dedicados a las tareas de mantenimiento.</item>
+        <item>Insatisfacción del cliente cuando no se puede atender en un tiempo aceptable una petición de reparación o modificación que parece razonable.</item>
+        <item>Los errores ocultos introducidos al cambiar el software durante el mantenimiento reducen la calidad global del producto.</item>
+        <item>Perjuicio en otros proyectos de desarrollo cuando la plantilla tiene que dejarlos, total o parcialmente, para atender peticiones de mantenimiento.</item>
+      </list>
+      <para id="id5687332">En 1970 ya se había popularizado el término “Crisis del Software” para referir a la situación que acabamos de describir. Los síntomas de esta crisis han estado repercutiendo desde entonces en la industria de desarrollo de software y todavía se sienten sus efectos. Para resolver el problema surgió un área de la informática que recibe el nombre de Ingeniería del Software.</para>
+      <para id="id5662202">Una de las principales causas de esta situación ha sido la poca importancia que se le ha dado al proceso de Mantenimiento del Software</para>
+    </section>
+    <section id="id5991651"><title>El mantenimiento del software como un caso especial de mantenimiento</title>
+      
+      <para id="id7251658">El software no se deteriora con el uso ni con el paso del tiempo, a diferencia de los materiales mecánicos que son producto de otras actividades de ingeniería. Mejor dicho, no sufre de un deterioro físico. No obstante, se suele considerar que el software tiene un deterioro en su estructura, cuando a lo largo del tiempo se van incluyendo más y más cambios que hacen que su estructura interna sea cada vez más difícil de entender. En ocasiones se ha denominado a este fenómeno como “erosión del diseño”.</para>
+      <para id="id6682773">Esta idea del deterioro de la estructura da lugar a la idea relacionada de la mantenibilidad. La mantenibilidad es una propiedad del diseño del software relativa a su facilidad de mantenimiento. Esto lleva a que en ocasiones se introduzcan cambios en el software sólo para hacerlo más mantenible, lo cual rara vez se encuentra en otras ramas de la ingeniería. </para>
+    </section>
+  </content>
+</document>

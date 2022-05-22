@@ -1,0 +1,57 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Tipos de Mantenimiento</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>bae88cb1-41d3-4799-b076-7f0c0087eb73</md:uuid>
+</metadata>
+  <content>
+    <para id="id3710598">De la definición de mantenimiento del estándar IEEE 1219 cabe distinguir tres causas fundamentales que desencadenan las actividades de mantenimiento.</para>
+    <para id="id12681449">Las causas u origen de las actividades de mantenimiento del software pertenecen a tres grupos principales:</para>
+    <list list-type="enumerated" id="id3796450">
+      <item>Eliminación de defectos del producto software.</item>
+      <item>Adaptar el producto software a </item>
+      <item>Incluir mejoras en el diseño.</item>
+    </list>
+    <para id="id13364133">Las causas por tanto son todas ellas resultado de tener que modificar el software para que cumpla con los requisitos del usuario ya establecidos (caso 1), para que siga cumpliéndolos cuando cambia su entorno (caso 2), o cuando se quiere mejorar la manera en que los cumple (caso 3). </para>
+    <para id="id11712014">Por otro lado, la definición anterior implica que el mantenimiento debido a los defectos es a posteriori, es decir, se desencadena cuando el defecto tiene como resultado un fallo que se detecta. En ocasiones, se realizan actividades de mantenimiento preventivo, que intentan detectar y corregir fallos latentes (que se supone pueden existir, aunque aún no se han “manifestado”).</para>
+    <para id="id13062606">Estas causas tienen su correlación directa con las denominadas “categorías de mantenimiento”, que en el estándar ISO/IEC 14764<footnote id="idm8964112">ISO/IEC (1999), ISO/IEC 14764, Software Engineering-Software Maintenance, ISO and IEC, 1999.</footnote> incluye las siguientes categorías definidas por Lientz y Swanson <footnote id="idm5672752">Lientz, B.P. and Swanson, E.B. (1978). Characteristics of Application Software Maintenance. Communications of the ACM, June, 1978, pp. 466-471.</footnote>(1978) son:</para>
+    <list list-type="enumerated" id="id12353740">
+      <item>Mantenimiento correctivo: modificaciones reactivas a un producto software hechas después de la entrega para corregir defectos descubiertos.</item>
+      <item>Mantenimiento adaptativo: modificación de un producto software realizada después de la entrega para permitir que un producto software siga pudiéndose utilizar en un entorno diferente.</item>
+      <item>Mantenimiento perfectivo: modificación de un producto software después de la entrega para mejorar el rendimiento o la mantenibilidad.</item>
+    </list>
+    <para id="id11196171">Una consecuencia importante de las definiciones anteriores es que no se considera mantenimiento a los cambios introducidos para incluir nuevos requisitos funcionales. No obstante, no hay un consenso unánime en este sentido, y de hecho, el concepto de evolución del software, que tratamos a continuación, amplía el espectro del mantenimiento a cambios en un sentido amplio. De hecho, hay autores que consideran que el mantenimiento perfectivo sí incluye cambios en la funcionalidad. De hecho, las categorías adaptativa y perfectiva son ambas mejoras, en contraposición el mantenimiento correctivo.</para>
+    <para id="id11029534">El estándar ISO/IEC 14764 clasifica las categorías comentadas hasta ahora según la siguiente Tabla, que nos puede ayudar a ver sus diferencias. </para>
+    <table id="id13319547" summary="">
+      <tgroup cols="3">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <tbody>
+          <row>
+            <entry/>
+            <entry>Corrección</entry>
+            <entry>Mejora</entry>
+          </row>
+          <row>
+            <entry>Proactiva</entry>
+            <entry>Preventivo</entry>
+            <entry>Perfectivo</entry>
+          </row>
+          <row>
+            <entry>Reactiva</entry>
+            <entry>Correctivo</entry>
+            <entry>Adaptativo</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id4206081">Por último, un estándar de mantenimiento del IEEE (1998) define una categoría adicional, la de mantenimiento de emergencia, cuando los cambios se deben hacer sin planificación previa, para mantener un sistema en operación.</para>
+    <para id="id10884150">Todas las anteriores definiciones son las que se encuentran habitualmente en los libros. No obstante, la clasificación más exhaustiva se encuentra en el artículo de Chapin (2001).</para>
+    <para id="id12716178">Una visión más general de los tipos de mantenimiento, se puede observar en la figura siguiente, ya que se distinguen los diferentes tipos de mantenimiento según cambios de software, cambios de código fuente o cambios de funcionalidad.</para>
+    <figure id="id11899612">
+      <media id="idm5747392" alt=""><image src="../../media/Figura4.gif" mime-type="image/gif" height="398" width="514"/></media>
+    </figure>
+     <para id="id12906443">
+      <cite><cite-title>Figura 1. Tipos de Mantenimiento</cite-title></cite>
+    </para>    
+  </content>
+</document>

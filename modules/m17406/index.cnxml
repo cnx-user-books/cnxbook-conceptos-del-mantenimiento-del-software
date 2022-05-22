@@ -1,0 +1,54 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Leyes de la Evolución del Software</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>e98dd4c3-97d3-4239-8a7d-1370ae47a9e9</md:uuid>
+</metadata>
+  <content>
+    <para id="id6565152">Lehman<footnote id="idm4287440">Lehman, M.M. (1974) Programs, Cities, Students, Limits to Growth?, Inaugural Lecture, May 1974. Publ. in Imp. Col of Sc. Tech. Inaug.l Lect. Ser., vol 9, 1970, 1974, pp. 211 - 229. Also in Programming Methodology, (D Gries ed.), Springer, Verlag, 1978, pp. 42 – 62</footnote> (1974) formuló las primeras “leyes de la evolución del software” por primera vez a partir de un estudio del proceso de programación en IBM. Con el tiempo, se han llegado a formular ocho de estas leyes. </para>
+    <para id="id8542634">En el ámbito de ciencias de la ingeniería, una ley debe entenderse como una característica común a muchos fenómenos o que se presenta con regularidad. </para>
+    <para id="id6694965">A continuación se resume la formulación de las leyes del mantenimiento tal y como se describen en (Lehman<footnote id="idp4652416">Lehman, M.M. (1997) Laws of Software Evolution Revisited, pos. pap., EWSPT96, Oct. 1996, LNCS 1149, Springer Verlag, 1997, pp. 108-124</footnote>, 1997). Todas ellas hacen referencias a programas “de tipo E”, es decir, a aquellos programas destinados a solucionar un problema del mundo real determinado: </para>
+    <list list-type="bulleted" id="id8472955">
+      <item>Ley I: CAMBIO CONTINUO. </item>
+      <item>Ley II: COMPLEJIDAD.</item>
+      <item>Ley III: AUTORREGULACIÓN. </item>
+      <item>Ley IV: CONSERVACIÓN DE LA ESTABILIDAD ORGANIZATIVA (VELOCIDAD DE TRABAJO INVARIANTE.</item>
+      <item>Ley V: CONSERVACIÓN DE LA FAMILIARIDAD.</item>
+      <item>Ley VI: CRECIMIENTO CONTINUO.</item>
+      <item>Ley VII: CALIDAD DECRECIENTE.</item>
+    </list>
+    <para id="id6904379">Estas leyes no son otra cosa que el resultado del estudio científico de experiencia acumulada en Ingeniería del Software. Como tales, nos pueden servir como base para la planificación de las actividades de mantenimiento y para la toma de decisiones al respecto.</para>
+    <section id="id7741387">
+      <title>Ley I: Cambio Continuo</title>
+      <para id="id7052903">Un programa de tipo-E que se utiliza debe adaptarse continuamente, en caso contrario, el programa se hace progresivamente menos satisfactorio. Estas adaptaciones son el resultado del cambio en la operación del entorno en el cual la aplicación cumple una función.</para>
+    </section>
+    <section id="id7879553">
+      <title>Ley II: Complejidad creciente</title>
+      <para id="id6483542">A medida que evoluciona un programa, su complejidad se incremente, a menos que se trabaje para mantenerla o reducirla.</para>
+      <para id="id8050498">Esta ley implica un tipo de “degradación” o “entropía” en la estructura del programa. Esto a su vez implica un aumento progresivo del esfuerzo de mantenimiento, a menos que se realice algún tipo de mantenimiento perfectivo a este respecto.</para>
+    </section>
+    <section id="id6596664">
+      <title>Ley III: Autorregulación</title>
+      <para id="id7591491">El proceso de evolución del programa se autorregula con una distribución de medidas de atributos de producto y procesos cercana a la normal.</para>
+      <para id="id6662050">La evolución de programas industriales tipo-E se lleva a cabo por un equipo que opera en una organización más grande. Las decisiones de gestión respecto a los cambios en el programa constituyen una dinámica que determina las características de crecimiento del producto.</para>
+    </section>
+    <section id="id7657634">
+      <title>Ley IV: Conservación de la estabilidad organizativa</title>
+      <para id="id6414133">La velocidad de actividad global efectiva media en un sistema en evolución es invariante a lo largo del ciclo de vida del producto.</para>
+      <para id="id5621280">Usualmente se considera que el esfuerzo gastado en la evolución del sistema se determina por decisiones de dirección. Esto es por supuesto así en un cierto grado, pero su influencia está limitada por factores externos respecto al empleo, la disponibilidad de personal competente, etc. NO obstante, también influyen los atributos del sistema, por ejemplo, la complejidad. Los datos empíricos sugieren que la actividad lleva a una estabilización de actividad aproximadamente constante.</para>
+    </section>
+    <section id="id7904398">
+      <title>Ley V: Conservación de la familiaridad</title>
+      <para id="id8425359">Durante la vida activa de un programa en evolución, el contenido de las versiones sucesivas es estadísticamente invariante.</para>
+      <para id="id6511625">Uno de los factores que determina el progreso de un desarrollo de software es la familiaridad de todos los implicados. Cuantos más cambios y adiciones se hacen a una versión, es más difícil que todos los implicados la conozcan. Debido a que el crecimiento está limitado por la capacidad de adquirir información de los participantes, una evolución “grande” dificultaría ese aprendizaje, por lo que los cambios tienden a ser de un tamaño parecido y limitado.</para>
+    </section>
+    <section id="id6563777">
+      <title>Ley VI: Crecimiento continuo</title>
+      <para id="id3886431">El contenido funciona de un programa debe incrementarse continuamente para mantener la satisfacción del usuario durante su ciclo de vida.</para>
+      <para id="id7760509">Esta ley refleja un aspecto del mismo fenómeno que refleja la primera. Habitualmente, los sistemas se crean con una limitación en cuanto a la funcionalidad del dominio cubierta, por motivos de tiempo o recursos. Esto hace que con el tiempo, los requisitos que se descartaron vuelvan a aparecer como necesidades.</para>
+    </section>
+    <section id="id7890559">
+      <title>Ley VII: Calidad decreciente</title>
+      <para id="id8425556">Los programas de tipo-E serán percibidos como de calidad decreciente a menos que se mantengan de manera rigurosa y se adapten al entorno operativo cambiante.</para>
+      <para id="id7908746">Esta percepción de la calidad decreciente tiene que ver con los cambios en los criterios de aceptabilidad de los usuarios.</para>
+    </section>
+  </content>
+</document>

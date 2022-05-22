@@ -1,0 +1,16 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Mantenimiento en el ciclo de vida del Software</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>45998b23-374a-4eeb-8465-5ca551efe08e</md:uuid>
+</metadata>
+  <content>
+    <para id="id10096242">La guía SWEBOK<footnote id="idm880">www.swebok.org</footnote> considera el siguiente esquema de actividades para los cambios del software.</para>
+    <figure id="id9295812">
+      <media id="idm11971984" alt=""><image src="../../media/graphics1.png" mime-type="image/png" height="286" width="521"/></media>
+    </figure>
+    <para id="id10753420">
+      <cite><cite-title>Figura 1. Esquema de las actividades del Ciclo de Vida del Software</cite-title></cite>
+    </para>
+    <para id="id10150050">El ciclo de vida del Software sigue el esquema de la figura anterior: en primer lugar los requisitos hay que clasificarlos e identificarlos para posteriormente analizar y poder diseñarlos. Una vez hecho estos pasos, ya se puede implementar y a continuación realizar las pruebas oportunas. Una vez realizada las pruebas y estas son válidas, se entrega el software. Si se desea realizar una modificación, este “requisito” debe de realizar el ciclo completo (clasificación, identificación, análisis,…. ).</para>
+    <para id="id10207059">Lo fundamental del esquema de actividades es que un cambio en el software sigue un “micro-ciclo” completo de ingeniería, al que debe preceder una actividad específica de clasificación, identificación y toma de decisiones respecto a los cambios que por diversos motivos deben hacerse en el software.</para>
+  </content>
+</document>
